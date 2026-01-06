@@ -20,7 +20,7 @@ describe('Las variables en Javascript', () => {
 describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
-        const expresion = number === 14;
+        const expresion = number === "20";
         expect(expresion).toBeFalsy();
     });
     it("usando !==", () => {

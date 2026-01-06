@@ -2,7 +2,7 @@ function welcome(){
    return "Hello World";
 };
 
-function evenOrOdd(n){
+function evenOrOdd(num){
   if (num % 2 === 0) {
     return "even";
   } else {
